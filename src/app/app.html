@@ -43,18 +43,18 @@
 
   <div *ngIf="!generated">
 
-    <input
-      type="text"
-      [(ngModel)]="text"
-      maxlength="1500"
-      [placeholder]="
-        language === 'ja'
-          ? '文字を入れてください'
-          : language === 'en'
-            ? 'Enter some text'
-            : '请输入文字'
-      "
-    />
+    <textarea
+  [(ngModel)]="text"
+  maxlength="1500"
+  rows="1"
+  [placeholder]="
+    language === 'ja'
+      ? '文字を入れてください'
+      : language === 'en'
+        ? 'Enter some text'
+        : '请输入文字'
+  "
+></textarea>
 
     <button (click)="generate()">
 

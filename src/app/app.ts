@@ -2,7 +2,8 @@ import {
   AfterViewInit,
   Component,
   ElementRef,
-  ViewChild
+  ViewChild,
+  HostListener
 } from '@angular/core';
 
 import { CommonModule } from '@angular/common';
@@ -35,6 +36,16 @@ interface Action {
   styleUrl: './app.css'
 })
 export class App implements AfterViewInit {
+
+  @HostListener('input', ['$event'])
+onInput(event: Event): void {
+
+  const textarea =
+    event.target as HTMLTextAreaElement;
+
+  textarea.style.height = 'auto';
+  textarea.style.height = textarea.scrollHeight + 'px';
+}
 
   @ViewChild('canvas')
   canvas!: ElementRef<HTMLCanvasElement>;
