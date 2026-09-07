@@ -1,0 +1,48 @@
+main {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    margin-top: 4px;
+    font-weight: normal;
+  }
+  
+  input {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto 10px;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  canvas {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+  .language {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 10px 0 15px;
+  }
+  
+  .language button {
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
