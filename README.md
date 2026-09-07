@@ -1,59 +1,108 @@
 # Mojidama
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.6.
+What if words could become balls?
 
-## Development server
+Enter a sentence.
+A short phrase.
+A few words.
 
-To start a local development server, run:
+The letters gather together
+and become a ball.
 
-```bash
-ng serve
-```
+A ball made of words.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then,
+you can do whatever you want with it.
 
-## Code scaffolding
+Throw it.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Dribble it.
 
-```bash
-ng generate component component-name
-```
+Kick it away.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Bury it in the ground.
 
-```bash
-ng generate --help
-```
+Put it in a refrigerator.
 
-## Building
+There is no particular reason
+you need to do any of these things.
 
-To build the project run:
+But you can.
 
-```bash
-ng build
-```
+The words you typed
+become something you can touch,
+move,
+and play with.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Maybe a sentence feels different
+when you can kick it away.
 
-## Running unit tests
+Maybe a thought becomes a little lighter
+when you bury it in the ground.
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Or maybe,
+you just want to put it
+in the refrigerator.
 
-```bash
-ng test
-```
+Mojidama is a small playground
+where words become physical objects.
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+# もじだま
 
-```bash
-ng e2e
-```
+もし、
+言葉がボールになったら？
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+文章や、
+短いフレーズを入力する。
 
-## Additional Resources
+すると、
+文字が集まって、
+ひとつのボールになる。
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+文字でできたボール。
+
+「もじだま」。
+
+できあがったもじだまは、
+自由に扱うことができます。
+
+投げる。
+
+ドリブルする。
+
+蹴り飛ばす。
+
+土に埋める。
+
+冷蔵庫に入れる。
+
+別に、
+どれもしなくていい。
+
+でも、
+できる。
+
+自分が入力した言葉が、
+触れるものになって、
+動かせるものになって、
+遊べるものになる。
+
+言葉を蹴り飛ばしてみたり。
+
+土に埋めてみたり。
+
+冷蔵庫で冷やしてみたり。
+
+もしかしたら、
+言葉の見え方が
+少し変わるかもしれない。
+
+もしかしたら、
+何の意味もないかもしれない。
+
+もじだまは、
+言葉を文字のボールにして、
+自由に遊ぶための
+小さなアプリです。
